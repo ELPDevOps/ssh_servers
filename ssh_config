@@ -1,0 +1,21 @@
+Host *
+    StrictHostKeyChecking no
+
+ 
+
+Host    ulwlsalliance*.wil.example.local
+        IdentityFile ~/.ssh/id_rsa
+        StrictHostKeyChecking no
+        User weblogic
+
+ 
+
+Host    dlwlsalliance*.wil.example.local
+        IdentityFile ~/.ssh/id_rsa
+        StrictHostKeyChecking no
+        User weblogic
+
+Host    abx.wil.example.local
+        IdentityFile ~/.ssh/id_rsa
+        StrictHostKeyChecking no
+        User tomact
